@@ -13,3 +13,21 @@ function flip(first, last) {
 }
 
 flip(first, last);
+
+$(document).ready(function() {
+  $("h1").click(function() {
+    alert("This is a header.");
+  });
+
+  $("p").click(function() {
+    alert("This is a paragraph.");
+  });
+
+  $("#1").click(function() {
+    alert(joinArray);
+  });
+
+  $("#2").click(function() {
+    alert(userResponse);
+  });
+});
